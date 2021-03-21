@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css2?family=Merienda+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Balthazar&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap);
+
+body {
+  background-color: #e8e8e8;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#title {
+  font-family: Merienda One;
+  font-size: 15pt;
+  background-color: #e2c58d;
+  text-align: center;
+  color: white;
+  height: 9em;
+  margin: auto;
+  display: flex;
+}
+h1 {
+  margin: auto;
+}
+#quote {
+  font-family: Balthazar;
+  text-align: center;
+  font-size: 28pt;
+  line-height: 27pt;
+}
+#intro {
+  font-family: Encode Sans;
+  text-align: center;
+  font-size: 23pt;
+  line-height: 30pt;
+}
+#work {
+  font-family: Balthazar;
+  text-align: left;
+  font-size: 18pt;
+}
+#descrp {
+  font-family: Encode Sans;
+  text-align: left;
+  font-size: 14pt;
+}
+.work {
+  font-family: Merienda One;
+  font-size: 15pt;
+  background-color: #a95fd6;
+  color: white;
+  box-shadow: 0px 5px 5px grey;
+  transition-duration: 0.4s;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.bio {
+  font-family: Merienda One;
+  font-size: 15pt;
+  background-color: #a95fd6;
+  color: white;
+  box-shadow: 0px 5px 5px grey;
+  transition-duration: 0.4s;
+  border-radius: 4px 4px 4px 4px;
+}
+.contact {
+  font-family: Merienda One;
+  font-size: 15pt;
+  background-color: #a95fd6;
+  color: white;
+  box-shadow: 0px 5px 5px grey;
+  transition-duration: 0.4s;
+  border-radius: 4px 4px 4px 4px;
+}
+
+#links {
+  display: flex;
+  justify-content: space-around;
+  padding: 3em;
+  margin: auto;
+  text-align: center;
+  text-decoration: underline;
+}
+.work:hover {
+  background-color: #ffffff;
+  color: white;
+  color: #a95fd6;
+}
+.bio:hover {
+  background-color: #ffffff;
+  color: white;
+  color: #a95fd6;
+}
+.contact:hover {
+  background-color: #ffffff;
+  color: white;
+  color: #a95fd6;
+}
+/*Had a tough time linking the links to certain areas of the page.*/
+h2 {
+  display: flex;
+  justify-content: space-around;
+  width: 9em;
+}
+h3 {
+  background-color: white;
+  height: 15em;
+  width: 63em;
+  margin: auto;
+}
+.comic {
+  height: 10em;
+  float: right;
+}
+.logo {
+  height: 11.2em;
+  float: left;
+  background-color: white;
+}
+.logo2 {
+  height: 11.2em;
+  float: right;
+  background-color: white;
+}
+.rose {
+  height: 12em;
+}
+.summer {
+  height: 12em;
+}
+.lakewood {
+  height: 8em;
+}
+#images {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  background-color: #e2c58d;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 27em;
+  width: 35em;
+}
+h4 {
+  line-height: 40px;
+}
+h5 {
+  background-color: white;
+  height: 15em;
+  line-height: 40pt;
+}
+#contact2 {
+  font-family: Balthazar;
+  font-size: 35pt;
+  text-indent: 30pt;
+}
+#email {
+  font-family: Encode Sans;
+  font-size: 20pt;
+  text-indent: 30pt;
+}
+#insta {
+  font-family: Encode Sans;
+  font-size: 20pt;
+  text-align: right;
+}
+.scroll1 {
+  height: 600px;
+}
+@media (min-width: 500px) {
+  p {
+    font-size: 35pt;
+  }
+}
+@media (min-width: 700px) {
+  p {
+    font-size: 35pt;
+  }
+}
